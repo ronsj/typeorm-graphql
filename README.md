@@ -6,9 +6,22 @@ A barebones example.
 - Docker
 
 ### Steps to run this project
-1. ```npm i```
-2. ```docker-compose up```
-3. ```npm start```
+ ```bash
+npm i
+```
+```bash
+docker-compose up
+```
+```bash
+npm start
+```
+
+### Shutting Down Docker
+In your terminal, press `ctrl + c` then run this command:
+```bash
+docker-compose down
+```
+Otherwise Docker may be left silently using your port in the background.
 
 ### Notes
 This project initally was bootstrapped with this command:
